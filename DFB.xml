@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<DataContentType>DFB</DataContentType>
+	<DatabaseName>OSAEngTestData_ITTRX</DatabaseName>
+	<DatabaseConnection>10.108.2.76\prod02</DatabaseConnection>
+	<DatabaseUser>osaeng</DatabaseUser>
+	<DatabasePassword>os@eng</DatabasePassword>
+	<DatabaseTable>BISlotInfo_Simu</DatabaseTable>
+	
+	<DataContent>
+		<LotNumber>Q28L0H1TEMP</LotNumber>
+		<StationName>SHG-D80002913</StationName>
+		<Floor>A</Floor>
+		<SlotIndex>1F</SlotIndex>
+		<BI_State>NO ACTION</BI_State>
+		<Operator>RASPI</Operator>
+		<TestPlan>QSFP28 TEMP Burn In</TestPlan>
+	</DataContent>
+</Settings>

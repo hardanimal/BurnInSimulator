@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BIS_GUI</class>
+ <widget class="QWidget" name="BIS_GUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>894</width>
+    <height>181</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BIS_GUI</string>
+  </property>
+  <widget class="QPushButton" name="btn_START">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>99</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>START</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_PAUSE">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>130</y>
+     <width>99</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PAUSE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_STUCK">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>130</y>
+     <width>99</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>STUCK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_Status">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>221</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Status:INIT</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="rtbLog">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>30</y>
+     <width>531</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_LoadConfig">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>99</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LoadConfig</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
